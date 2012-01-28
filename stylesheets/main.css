@@ -1,29 +1,30 @@
+/* Every Page */
+
 body
 {
 	background-image:url(../images/fabric_plaid.png);
-}
-
-/* Resets page margins */
-
-* {
-  margin: 0;
-  padding: 0;
+	margin-bottom:30px;
 }
 
 .logo
 {
 	
-	margin-top:20px;
+	margin-top:13px;
 	text-align:center;
 }
 
 .container
 {
 	background-color:white;
-	margin-top:20px;
+	margin-top:7px;
 	border-radius:18px;
 	box-shadow: 2px 2px 8px #888;
 	
+}
+
+a
+{
+	color:#499DF5;
 }
 
 
@@ -33,20 +34,19 @@ ul
 	list-style-type: none;
 	top:10px;
 	text-align:center;
-	margin: auto auto;
 
 }
 
-li 
+li
 { 
 	
 	margin-top:10px;
 	display:inline;
-	padding-left:20px;
-	padding-right:20px;
-	border-right:black 1px solid;
+	border-right:1px solid black;
+	border-left:1px solid black;
+	padding-left:10px;
+	padding-right:10px;
 	letter-spacing:1px;
-	text-transform:uppercase;
 	font-size:14px;
 }
 
@@ -55,16 +55,19 @@ li a
 	color:black;
 }
 
-.row
+.footer
 {
-	margin:0;
-	padding:0;
+	text-align:center;
+	font-weight:bold;
+	font-size:10px;
+	margin-top:20px;
 }
 
+/* Home Page */
 
-.welcome
+#welcome
 {
-	margin-top:30px;
+	margin-top:40px;
 	border-radius:2px;
 	background-color: #E7E8EA;
 	font-size:36px;
@@ -75,28 +78,22 @@ li a
 
 }
 
-.welcometext
+#welcometext
 { 
 	position:relative;
 	top:15px;
 	text-indent:10px;
 }
 
-.text
+#text
 {
 	position:relative;
 	top:20px;
 }
 
-.image
+#news
 {
-	position:relative;
-	margin-top:20px;
-}
-
-.news
-{
-	margin-top:30px;
+	margin-top:40px;
 	background-color: #E7E8EA;
 	height:45px;
 	font-family: 'Lobster', cursive;
@@ -104,7 +101,7 @@ li a
 	font-size:36px;
 }
 
-.newstext
+#newstext
 {
 	position:absolute;
 	margin-top:15px;
@@ -112,16 +109,42 @@ li a
 	text-shadow: #fff 1px 1px 0; 
 }
 
-.blank
+#newsupdate
+{
+	position:relative;
+	margin-top:20px;
+	height:150px;
+	overflow:auto;
+}
+
+#gallery
 
 {
-	position: relative;
+	position:relative;
 	margin-top: 40px;
-	height:50px;
-	background-color:white;
+	height:45px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+}
+
+#gallerytext
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+#imagehold
+{
+	position:relative;
+	margin-top:10px;
 	
 }
-.social
+
+#social
 {
 	position: relative;
 	margin-top:40px;
@@ -134,10 +157,310 @@ li a
 	
 }
 
-.socialtext
+#socialtext
 {
 	position:absolute;
 	margin-top:15px;
 	text-indent:10px;
 	text-shadow: #fff 1px 1px 0; 
+}
+
+#socialicon
+{
+
+	position:relative;
+	margin-top:10px;
+	text-align:center;
+}
+
+/* About page */
+
+#aboutme
+{
+	position:relative;
+	margin-top: 40px;
+	height:50px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+	border-radius:3px;
+}
+
+#abouttext
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+#bio
+{
+	position:relative;
+	margin-top:10px;
+}
+
+#quickfacts
+{
+	position:relative;
+	margin-top: 40px;
+	height:50px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+	border-radius:3px;
+}
+
+#facts
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+#stats
+{
+	position:relative;
+	margin-top:10px;
+}
+
+/* Portfolio Page */
+
+#projectname
+{
+	position:relative;
+	margin-top: 40px;
+	height:50px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+	border-radius:3px;
+}
+
+#projecttext
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+#image
+{
+	position:relative;
+	margin-top:20px;
+}
+
+#projectinfo
+{
+	position:relative;
+	margin-top: 40px;
+	height:50px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+	border-radius:3px;
+}
+
+#info
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+#infotext
+{
+	position:relative;
+	margin-top:40px;
+}
+
+/* Individual projects */
+
+.project1
+{
+	position:relative;
+	border:1px solid #CCCCCC;
+	height:230px;
+	width:330px;
+	margin:auto auto;
+	padding:5px;
+}
+
+
+#proj1text
+{
+	position:relative;
+	margin-top:100px;
+}
+
+#divider1
+{
+	position:relative;
+	margin-top:97px;
+}
+
+#project2
+{
+	position:relative;
+	border:1px solid #CCCCCC;
+	height:230px;
+	width:330px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	padding:5px;
+}
+
+#proj2text
+{
+	position:relative;
+	margin-top:120px;
+}
+
+#divider2
+{
+	position:relative;
+	margin-top:100px;
+}
+
+#project3
+{
+	position:relative;
+	border:1px solid #CCCCCC;
+	height:230px;
+	width:330px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	padding:5px;
+}
+
+#proj3text
+{
+	position:relative;
+	margin-top:120px;
+}
+
+/* Every project page */
+
+.moreinfo
+{
+	position:relative;
+	margin-top: 40px;
+	height:50px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+	border-radius:3px;
+}
+
+.moretitle
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+
+.details
+{
+	position:relative;
+	margin-top:20px;
+}
+
+.screenshot
+{
+	position:relative;
+	margin-top: 40px;
+	height:50px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+	border-radius:3px;
+}
+
+.screentitle
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+.screeninfo
+{
+	position:relative;
+	margin-top:10px;
+}
+
+.caption
+{
+	position:relative;
+	text-align:center;
+}
+
+/* Resources */
+
+#resources
+{
+	position:relative;
+	margin-top: 40px;
+	height:50px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+	border-radius:3px;
+}
+
+#resourcetext
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+#resourceref
+{
+	position:relative;
+	margin-top:10px;
+}
+
+/* Contact Information */
+
+#contact
+{
+	position:relative;
+	margin-top: 40px;
+	height:50px;
+	background-color:#E7E8EA;
+	font-family: 'Lobster', cursive;
+	font-weight:700;
+	font-size:36px;
+	border-radius:3px;
+}
+
+#contacttitle
+{
+	position:absolute;
+	margin-top:15px;
+	text-indent:10px;
+	text-shadow: #fff 1px 1px 0; 
+}
+
+#contactinfo
+{
+	position:relative;
+	margin-top:10px;
 }

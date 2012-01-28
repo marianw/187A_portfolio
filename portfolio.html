@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>A Generic Page</title>
-    <meta name="description" content="something good should go here">
-    <meta name="author" content="your name should go here">
+    <title>Portfolio- Marian Wang</title>
+    <meta name="description" content="portfolio page">
+    <meta name="author" content="Marian Wang">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -18,7 +18,7 @@
 
     <!-- Your Stylesheets -->
     <link rel="stylesheet" href="stylesheets/main.css" >
-    <link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
     <!-- Base Javascripts -->
     <script src="javascripts/lib/base.js"></script>
@@ -33,19 +33,84 @@
   </head>
   
   <body>
+  
+  <div class="logo"><img src="images/logo.png" alt="logo">
+</div>
     <div class="container">
  
       <div class="row">
-      <div class="span10">
-      <div class="image">
-          <h2>Example Image Gallery</h2>
-          <a class="fancybox" href="images/187.jpg" data-fancybox-group="gallery" title="COGS 187"><img src="images/187.jpg" alt="COGS187" /></a>
-          <a class="fancybox" href="images/187.jpg" data-fancybox-group="gallery" title="COGS 187"><img src="images/187.jpg" alt="COGS187" /></a>
-          </div>
-        </div>
+      
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
       </div>
+      
+      <div class="row">
+<div class="offset1 span7">
+  <div id="projectname">
+  <div id="projecttext">Project Name</div>
+  
+  </div>
+  
+   <div id="image">
+          <h2>Project 1: New Portfolio Site <span class="label notice">New</span> </h2>
+  <div class="project1">
+  <a class="fancybox" href="images/portnew.png" data-fancybox-group="gallery" title="Home page of my old portfolio"><img src="images/portnewthumb.png" alt="Old home page"></a>
+  </div>
+  
+  <br><hr>
+  
+        <br><h2>Project 2: Original Portfolio Site</h2>
+        <div id="project2">
+        <a class="fancybox" href="images/porthome.jpg" data-fancybox-group="gallery" title="Home page of my old portfolio"><img src="images/porthomethumb.jpg" alt="Old home page"></a></div>
+        
+        <br><hr>
+        
+        <br><h2>Project 3: WeatherTmr</h2>
+        <div id="project3">
+        <a class="fancybox" href="images/signupfull.png" data-fancybox-group="gallery" title="Signup Page for WeathrTmr"><img src="images/signup.png" alt="Signup Page for WeatherTmr"></a></div>
+        <br><br>
+  </div> <!-- image close -->
+  </div> <!-- span7 close -->
+
+     
+
+<div class="offset1 span6">
+  <div id="projectinfo">
+  <div id="info">Project Information</div>
+  </div>
+  
+  <div id="infotext">
+  <div id="proj1text">This is my newest project, a rennovated version of my portfolio. I actually was not planning to change my portfolio for awhile, but then I was assigned to make a digital portfolio in my COGS 187a: Multimedia Design class. I ended up liking my new design so much, it is now my new portfolio.
+  <br><br>For more images and the design behind it, <a href="new.html">click here</a>.
+  </div>
+  
+  <div id="divider1"><hr></div>
+  
+  <div id="proj2text">This was my original portfolio website. It currently is still the layout of it, but I'm planning on changing to the current layout I have now. It was made to look very minimalistic and plain. The home page is the only page that is different from the website.
+<br><br>To learn more about this project, <a href="original.html">click here</a>. 
+  </div>
+  
+  <div id="divider2"><hr></div>
+  
+  <div id="proj3text">I created the layout for a website called <a href="http://weathertmr.com">WeatherTmr</a>. I made a sign-up page and a general forecast page for him. I gathered a general idea of what he wanted, simplified his original design, and then mocked it up in Photoshop. Afterwards, I coded it in HTML/CSS.
+<br><br>For more screenshots and information about the project, <a href="weather.html">click here</a>.
+
+  </div>
+
+  </div> <!-- infotext close -->
+  
+</div> <!-- span6 close -->
+
+</div> <!-- row close -->
 
     </div> <!-- end container -->
+    
+    <div class="footer">© 2012 | Marian Wang | <a href="mailto:marian.wang@me.com">marian.wang@me.com</a></div>
 
   </body>
   

@@ -1,89 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>A Generic Page</title>
-    <meta name="description" content="something good should go here">
-    <meta name="author" content="your name should go here">
+<head>
+<meta charset="utf-8">
+<title>Marian Wang- Homepage</title>
+<meta name="description" content="home page of my website!">
+<meta name="author" content="Marian Wang">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 
-    <!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
-    <link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
-    <link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
-
-
-    <!-- Your Stylesheets -->
-    <link rel="stylesheet" href="stylesheets/main.css" >
-    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-
-    <!-- Base Javascripts -->
-    <script src="javascripts/lib/base.js"></script>
-
-    <!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
-    <script src="javascripts/lib/jquery.fancybox.js"></script>
+<!-- Base Stylsheets http://twitter.github.com/bootstrap/ -->
+<link rel="stylesheet" href="stylesheets/lib/bootstrap.css" >
+<link rel="stylesheet" href="stylesheets/lib/jquery.fancybox.css" >
 
 
-    <!-- Your Javascripts -->
-    <script src="javascripts/main.js"></script>
+<!-- Your Stylesheets -->
+<link rel="stylesheet" href="stylesheets/main.css" >
+<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 
-  </head>
-  
-  <body>
-  
-  
-    <div class="logo"><img src="images/logo.png">
-    </div>
-    <div class="container">
+<!-- Base Javascripts -->
+<script src="javascripts/lib/base.js"></script>
 
-      <div class="row">
-      
+<!-- Fancybox Lightbox http://fancyapps.com/fancybox/#examples -->
+<script src="javascripts/lib/jquery.fancybox.js"></script>
 
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        </ul>
 
-     </div> <!-- end row -->
-     
-     <div class="row">
-       <div class="span8">
-         <div class="welcome">
-           <div class="welcometext">
-           Welcome!
-           </div>
-         </div>
-          <div class="text">WHY WON'T TEXT WOTJEGHJDKGHDKGJHDJKGHGJKDHGJKDHGKDJHGKJNVJKD GKJNDGJKDHJKGHDKJGHDJKGNVKDJNGJKDGJKDH text works now omg</div>
-       </div>
-       
-       <div class="span8">
-           <div class="news">
-               <div class="newstext">Recent News
-               </div>
-            </div>
-       </div>
-     </div>
-      
-      <div class="row">
-      <div class="span8">
-      <div class="blank"></div>
-      
-      </div>
-      
-      <div class="span5">
-      <div class="social">
-      <div class="socialtext">
-      Find me on:
-      </div>
-      </div>
-        </div>
-      </div>
+<!-- Your Javascripts -->
+<script src="javascripts/main.js"></script>
 
-    </div> <!-- end container -->
 
-  </body>
-  
+</head>
+
+<body>
+
+
+<div class="logo"><img src="images/logo.png" alt="Logo Image">
+</div>
+<div class="container">
+
+<div class="row">
+
+
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="portfolio.html">Portfolio</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</div> <!-- end row -->
+
+<div class="row">
+<div class="offset1 span7">
+<div id="welcome">
+<div id="welcometext">
+Welcome!
+</div>
+</div>
+<div id="text">Hello! 
+
+<p>My name is <strong>Marian Wang</strong> and I'm a 4th year undergraduate student. I'm studying at the <strong>University of California, San Diego</strong> and currently majoring in <strong>Cognitive Science: Human-Computer Interaction.</strong></p>
+
+<p>I am a big fan of <strong>usability</strong> and <strong>interactiveness</strong>.</p>
+
+<p>To learn more about me, <a href="about.html">click here!</a></p></div>
+</div>
+
+<div class="offset2 span5">
+<div id="news">
+<div id="newstext">Recent News
+</div>
+</div>
+<div id="newsupdate">
+	<span class="label notice">New</span> 
+<dl>
+	
+	<dt>1/27/2012</dt>
+	<dd>Added resources, contact, and portfolio page. Manged to get the "tweet me" button working (Twitter forgot to put "https" for part of their url in the code...). Every page has been validated.</dd>
+	<dt>1/26/2012</dt>
+	<dd>Added social icons to the site. Fixed the top bars. </dd>
+	<dt>1/25/2012</dt>
+	<dd>Revised layout, made it much simpler. Added logo, fixed the title bar widths.</dd>
+</dl>
+	<span class="label">Older</span>
+<dl>
+	<dt>1/24/2012</dt>
+	<dd>Tried first draft of portfolio layout. Decided to scrap it since it didn't looked minimalistic enough.</dd>
+</dl>
+</div>
+</div>
+</div>
+
+<div class="row">
+<div class="offset1 span7">
+<div id="gallery">
+<div id="gallerytext">My works
+</div>
+</div>
+<div id="imagehold">
+<ul class="media-grid">
+<li>
+<a href="new.html">
+<img class="thumbnail" src="images/portnew90.png" alt="New Portfolio">
+</a>
+</li>
+<li>
+<a href="original.html">
+<img class="thumbnail" src="images/porthome90.jpg" alt="Old Portfolio">
+</a>
+<a href="weather.html">
+<img class="thumbnail" src="images/weather90.png" alt="WeatherTmr">
+</a>
+</li>
+</ul>
+<br>See more of my work <a href="portfolio.html">here</a>.
+</div>
+
+</div>
+
+
+<div class="offset2 span5">
+<div id="social">
+<div id="socialtext">
+Find me on:
+</div>
+</div>
+<div id="socialicon">
+	<a href="http://www.facebook.com/mareeps"><img src="images/facebook.png" alt="Facebook"></a>
+	<a href="http://twitter.com/plushifiedbunny"><img src="images/twitter.png" alt="Follow me on Twitter"></a>
+	<a href="http://forrst.com/people/marian"><img src="images/forrst.png" alt="Forrst"></a>
+	<a href="laceribbons.tumblr.com"><img src="images/tumblr.png" alt="See my Tumblr"></a>
+	<a href="http://steamcommunity.com/profiles/76561198031148476/"><img src="images/steam.png" alt="Friend me on Steam"></a>
+</div>
+</div>
+</div>
+</div>
+
+<!-- end container -->
+
+<div class="footer">© 2012 | Marian Wang | <a href="mailto:marian.wang@me.com">marian.wang@me.com</a></div>
+
+</body>
+
 </html>
